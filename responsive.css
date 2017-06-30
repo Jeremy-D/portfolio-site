@@ -1,0 +1,227 @@
+/*================================
+
+Media Queries
+
+==================================*/
+
+/*0px to 300px*/
+@media only screen and (min-width:300px) {
+	/* header section*/
+	header {
+		flex-direction: column;
+		justify-content: space-around;
+		height:700px;
+	}
+
+	.selfie {
+  		width: 300px;
+  		height: 300px;
+  		overflow: hidden;	
+	}
+
+	#header-right {
+		position:relative;
+		top:20px;
+		border:;	
+	}
+
+	#header-content {
+		position:relative;
+		left:10px;
+		height:150px;
+		width:300px;
+		background:;
+	}
+
+	#header-content #title {
+		width:75%;
+		margin-bottom: 10px;
+		font-size: 18px;
+		line-height: 30px
+	}
+
+	.header-projects {
+		position: relative;
+		bottom:30px;
+		width:300px;
+	}
+
+	h1 {
+	color:#fff;
+	/*font-family: "Oswald", sans-serif;*/
+	font-size:40px;
+	line-height: 60px;
+	} 
+
+	#top-scroll {
+		position:relative;
+		bottom:40px;
+	}
+
+	/*portfolio*/
+
+	#portfolio-container {
+		height:1000px;
+		background:;
+	}
+
+	#portfolio-container article {
+		width:150px;
+		height:150px;
+	}
+
+	/*github*/
+	
+
+	nav {
+		flex-direction: column-reverse;
+		justify-content: flex-end;
+		align-items:center;
+		height:900px;
+		}
+
+	nav a img {
+		position: relative;
+		height:200px;
+		margin-top: 60px;
+	}
+
+	.nav-el {
+		position: relative;
+		bottom:150px;
+
+	}
+}
+
+/*300px to 768px*/
+@media only screen and (min-width: 768px) {
+
+	#header-right {
+		top:50px;
+	}
+
+	#header-content {
+		width:500px;
+	}
+
+	#header-content #title {
+		width:75%;
+		margin-bottom: 10px;
+		font-size: 25px;
+		line-height: 30px;
+	}
+
+	.header-projects {
+		position: relative;
+		bottom:65px;
+		width:495px;
+	}
+
+	#portfolio-container article {
+		width:350px;
+		height:250px;
+	}
+
+	nav {
+		display:flex;
+		flex-direction: row-reverse;
+		height:500px;
+		align-items:flex-start;
+		justify-content: space-around;
+	}
+
+	nav a img {
+		margin-top: 20px;
+	}
+
+	.selfie {
+  		width: 400px;
+  		height: 400px;
+  		overflow: hidden;
+  		border-radius: 50%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	#portfolio-container {
+		
+		background:;
+	}
+}
+
+@media only screen and (min-width:1024px) {
+	h1 {
+	color:#fff;
+	/*font-family: "Oswald", sans-serif;*/
+	font:100 72px/108px "Oswald", Arial, sans-serif;
+	}
+
+	header {
+		flex-direction: row;
+		height:500px;
+	}
+
+	.selfie {
+  		width: 425px;
+  		height: 425px;
+  		overflow: hidden;
+  		border-radius: 50%;
+	}
+
+	#header-right {
+		position:relative;
+		top:70px;
+		border:;	
+	}
+
+	#header-content {
+		background:;
+		height:220px;
+	}
+
+	.header-projects {
+		position: relative;
+		bottom:30px;
+	}
+
+	#top-scroll {
+		position:relative;
+		bottom:0px;
+	}
+
+	/*portfolio*/
+	
+	#portfolio-container {
+		height:800px;
+	}
+
+	#portfolio-container article {
+		width:400px;
+		height:300px;
+	}
+
+	/*github*/
+
+	nav {
+		height:704px;
+		display:flex;
+		justify-content:space-around;
+		flex-direction: row-reverse;
+		border-bottom: 1px  solid #ddd;
+		background:;
+	}
+
+	nav a img {
+	position:relative;
+	top:20px;
+	left:;
+
+	height:400px;
+	-webkit-box-shadow: 10px 10px 26px 8px rgba(184,182,184,1);
+       -moz-box-shadow: 10px 10px 26px 8px rgba(184,182,184,1);
+            box-shadow: 10px 10px 26px 8px rgba(184,182,184,1);
+    border-radius:5px;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+	}
+}

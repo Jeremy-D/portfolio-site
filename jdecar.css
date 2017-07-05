@@ -105,13 +105,15 @@ header {
   height: 425px;
   overflow: hidden;
   border-radius: 50%;
+  background:;
 }
 
 .selfie img {
-  width: 100%;
+  width: 140%;
   position:relative;
-  bottom: 70px;
-  height: auto;
+  top:px;
+  right:90px;
+  height: auto%;
 }
 
 #header-content {

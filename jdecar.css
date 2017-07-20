@@ -294,7 +294,16 @@ article:nth-child(1) {
 
 article:nth-child(2) {
 	background:url("img/mint-leaf.png") no-repeat 0px 0;
-	background-size:100% 100%;
+	background-size:80% 80%;
+	background-size: cover;
+	
+}
+
+#mint {
+	background-color: white;
+	background-size: 80% 100% ;
+	background-position: center;
+
 }
 
 article:nth-child(3) {

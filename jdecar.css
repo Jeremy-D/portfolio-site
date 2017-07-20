@@ -188,7 +188,7 @@ header article:hover{
 
 }
 
-header article:nth-child(1) {
+header article:nth-child(4) {
 	background:#000 url("img/lights.png") no-repeat 0px -40px;
 	background-size:300% 300%;
 }
@@ -286,14 +286,15 @@ article:hover {
 }
 
 article:nth-child(1) {
-	background:#000 url("img/lights.png") no-repeat 0 -185px;
-	background-size:200% 200%;
+	background:url("img/youtube-play.jpeg") no-repeat;
+	background-size: 100% 100%;
+	background-size: cover;
+	/*background-position: 0 -50px;*/
 }
 
 article:nth-child(2) {
 	background:url("img/mint-leaf.png") no-repeat 0px 0;
 	background-size:100% 100%;
-
 }
 
 article:nth-child(3) {
@@ -302,18 +303,25 @@ article:nth-child(3) {
 }
 
 article:nth-child(4) {
+	background:#000 url("img/lights.png") no-repeat 0 -185px;
+	background-size:200% 200%;
+}
+
+article:nth-child(5) {
 	background:url("img/tic-tac-toe.png") no-repeat;
 	background-size: 100% 100%;
 }
 
-article:nth-child(5) {
+article:nth-child(6) {
 	background:url("img/mastermind.png") no-repeat;
 	background-size: 100% 100%;
 }
 
-article:nth-child(6) {
-	background:url("img/bubblesort.png") no-repeat;
+#youtube{
+	background:url("img/youtube-play.jpeg") no-repeat;
 	background-size: 100% 100%;
+	background-size: cover;
+	background-position: 0 -50px;
 }
 
 article img {

@@ -1,6 +1,16 @@
-/*================================
 
-Reset
+/*
+1.0 Reset
+2.0 General
+3.0 Header
+	3.1 Header-spacer
+4.0 live projects
+5.0 Github
+*/
+
+
+/*================================
+1.0 Reset
 
 ==================================*/
 
@@ -18,8 +28,7 @@ html {
 	padding:0;
 }
 /*================================
-
-General
+2.0 General
 
 ==================================*/
 
@@ -87,8 +96,7 @@ article {
 }
 
 /*================================
-
-Header
+3.0 Header
 
 ==================================*/
 header {
@@ -210,8 +218,7 @@ article h6 {
 }
 
 /*================================
-
-Header-spacer
+3.1 Header-spacer
 
 ==================================*/
 .header-spacer {
@@ -254,8 +261,7 @@ Header-spacer
 }
 
 /*================================
-
-live projects
+4.0 live projects
 
 ==================================*/
 
@@ -294,7 +300,6 @@ article:nth-child(1) {
 
 article:nth-child(2) {
 	background:url("img/mint-leaf.png") no-repeat 0px 0;
-	background-size:80% 80%;
 	background-size: cover;
 	
 }
@@ -386,8 +391,7 @@ article h2:hover {
 }
 
 /*================================
-
-Github
+5.0 Github
 
 ==================================*/
 
